@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌎 Parody Deals Clone: Geo-Targeted Coupon SaaS
+
+A feature-rich clone of the Parody Deals platform, built with **Next.js** and modern tools, providing a geo-targeted coupon system. This project is designed for scalability and optimized performance, enabling users to create customizable, location-based discounts and monitor site analytics in real-time.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [What I Learned](#what-i-learned)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
+
+## Overview
+This project replicates Parody Deals' core functionalities as a SaaS platform, allowing site owners to show unique discounts based on user location. Users benefit from configurable discount settings, real-time analytics, subscription management, and permission-based access. The codebase is modular, modern, and highly maintainable.
+
+### Demo
+[Live Site Demo](https://your-live-demo-link.com)
+
+## Features
+- **Geo-Targeted Discounts**: Adjust discounts based on user location, segmented by purchasing power.
+- **Customizable Banners**: Customize the banner message, color, font, and size to align with branding.
+- **In-depth Analytics**: Track users by location, date, and product to gain insights into site traffic.
+- **Subscription & Billing**: Multiple subscription tiers (e.g., Basic, Pro) with Stripe integration.
+- **Access Permissions**: Role-based access, restricting lower-tier users from analytics and customization tools.
+- **Caching System**: A robust caching layer to enhance performance and manage high traffic.
+
+## Tech Stack
+- **Frontend**: Next.js (React Framework), TypeScript, Tailwind CSS, ShadCN
+- **Backend**: Next.js API Routes
+- **Authentication**: Clerk for user authentication and role management
+- **Database**: Neon (PostgreSQL) using Drizzle ORM
+- **Payments**: Stripe API for subscription and billing
+- **Deployment**: Vercel
 
 ## Getting Started
+### Prerequisites
+- Node.js v16.8 or later
+- npm or yarn
 
-First, run the development server:
+### Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/your-username/parody-deals-clone.git
+```
+```bash
+cd parody-deals-clone
+```
+```bash
+npm install
+```
+
+## Run Locally
+To start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+- **User Authentication**: Register or log in with Clerk.
+- **Dashboard**: Access analytics, customize banners, and manage subscriptions.
+- **Discounts**: Define and manage discounts by country group.
+- **Admin Controls**: Only authorized users can edit discounts or view analytics based on their subscription level.
 
-To learn more about Next.js, take a look at the following resources:
+## What I Learned
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project taught me:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Advanced Authentication**: Implemented multi-tier access and role-based controls using Clerk.
+- **Complex UI Customization**: Leveraged ShadCN with Tailwind CSS for a modular design system.
+- **Geo-Targeted Discounts**: Developed logic to tailor discounts based on user location and purchasing power.
+- **Modular Code Design**: Utilized Next.js App Router and TypeScript for scalable code structure and clean data handling.
+- **SaaS Payment Integration**: Integrated Stripe for subscription handling, payment management, and role-based access.
+- **Real-Time Analytics**: Designed dashboards that track user activity by date and country in Neon with Drizzle ORM.
 
-## Deploy on Vercel
+## Future Enhancements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Real-Time Notifications**: Notify admins of high traffic from certain regions.
+- **Advanced Customization Options**: Add more options for banner styling and layout.
+- **Localization**: Support for multiple languages based on user location.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+**Yash Bhatt**  
+[GitHub](https://github.com/y-ashbhatt)  
+[LinkedIn](https://www.linkedin.com/in/yashbhatt30)
