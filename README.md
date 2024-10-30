@@ -15,8 +15,6 @@ A feature-rich clone of the Parody Deals platform, built with **Next.js** and mo
 ## Overview
 This project replicates Parody Deals' core functionalities as a SaaS platform, allowing site owners to show unique discounts based on user location. Users benefit from configurable discount settings, real-time analytics, subscription management, and permission-based access. The codebase is modular, modern, and highly maintainable.
 
-
-
 ## Features
 - **Geo-Targeted Discounts**: Adjust discounts based on user location, segmented by purchasing power.
 - **Customizable Banners**: Customize the banner message, color, font, and size to align with branding.
@@ -56,9 +54,7 @@ To start the development server:
 ```bash
 npm run dev
 ```
-
 Navigate to http://localhost:3000 in your browser.
-
 
 ## Usage
 
