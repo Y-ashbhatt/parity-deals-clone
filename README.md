@@ -1,6 +1,6 @@
-# 🌎 Parody Deals Clone: Geo-Targeted Coupon SaaS
+# 🌎 Parity Deals Clone: Geo-Targeted Coupon SaaS
 
-A feature-rich clone of the Parody Deals platform, built with **Next.js** and modern tools, providing a geo-targeted coupon system. This project is designed for scalability and optimized performance, enabling users to create customizable, location-based discounts and monitor site analytics in real-time.
+A feature-rich clone of the Parity Deals platform, built with **Next.js** and modern tools, providing a geo-targeted coupon system. This project is designed for scalability and optimized performance, enabling users to create customizable, location-based discounts and monitor site analytics in real-time.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -13,7 +13,7 @@ A feature-rich clone of the Parody Deals platform, built with **Next.js** and mo
 - [Author](#author)
 
 ## Overview
-This project replicates Parody Deals' core functionalities as a SaaS platform, allowing site owners to show unique discounts based on user location. Users benefit from configurable discount settings, real-time analytics, subscription management, and permission-based access. The codebase is modular, modern, and highly maintainable.
+This project replicates Parity Deals' core functionalities as a SaaS platform, allowing site owners to show unique discounts based on user location. Users benefit from configurable discount settings, real-time analytics, subscription management, and permission-based access. The codebase is modular, modern, and highly maintainable.
 
 ## Features
 - **Geo-Targeted Discounts**: Adjust discounts based on user location, segmented by purchasing power.
